@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Archives - The Duck Magazine</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background-color: #fff9f5;
+      color: #333;
+    }
+    header {
+      background-color: #ff6f61;
+      color: white;
+      padding: 2rem;
+      text-align: center;
+    }
+    nav {
+      background: #fff;
+      padding: 1rem;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 1rem;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    nav a {
+      color: #ff6f61;
+      text-decoration: none;
+      font-weight: 600;
+    }
+    section {
+      padding: 2rem;
+    }
+    footer {
+      background: #ff6f61;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 3rem;
+    }
+    .archives-list {
+      list-style: none;
+      padding: 0;
+    }
+    .archives-list li {
+      background-color: #f9f9f9;
+      margin: 1rem 0;
+      padding: 1rem;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    .archives-list li a {
+      color: #ff6f61;
+      text-decoration: none;
+      font-weight: 600;
+    }
+    .archives-list li a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <h1>The Duck Magazine - Archives</h1>
+    <p>Explore past issues, features, and special editions of The Duck.</p>
+  </header>
+
+  <!-- Navigation Bar -->
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="faq.html">FAQ</a>
+    <a href="contact.html">Contact</a>
+    <a href="archives.html">Archives</a>
+  </nav>
+
+  <!-- Archives Section -->
+  <section id="archives">
+    <h2>Recent Issues</h2>
+    <p>Browse through our past editions and features from The Duck Magazine.</p>
+    <ul class="archives-list">
+      <li>
+        <a href="issue1.html">Issue 1: Model Glamour</a>
+        <p>Released: January 2025 - A deep dive into the bold beauty of fashion and authenticity.</p>
+      </li>
+      <li>
+        <a href="issue2.html">Issue 2: Eco-Fashion Revolution</a>
+        <p>Released: February 2025 - Exploring the future of sustainable fashion.</p>
+      </li>
+      <li>
+        <a href="issue3.html">Issue 3: Cultural Threads</a>
+        <p>Released: March 2025 - Embracing diverse fashion traditions from around the world.</p>
+      </li>
+      <!-- Add more issues as needed -->
+    </ul>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 The Duck Magazine. All rights reserved.</p>
+  </footer>
+</body>
+</html>
